@@ -8,8 +8,8 @@ try:
     import unittest2 as unittest
 except ImportError:
     import unittest
-from tests import maintest
-from tests import deprecationtest
+from . import maintest
+from . import deprecationtest
 
 class RunTests(Command):
 
